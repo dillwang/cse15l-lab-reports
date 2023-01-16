@@ -1,3 +1,5 @@
+# Lab Report 1
+---
 # Remote Access
 In order to have remote access to CSE 15L server, there are three major steps that need to be taken.
 1. Installing VScode
