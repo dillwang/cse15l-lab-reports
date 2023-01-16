@@ -2,7 +2,7 @@
 ---
 # Remote Access
 In order to have remote access to CSE 15L server, there are three major steps that need to be taken.
-1. Installing VScode
+1. Installing VScode.
 VScode is a very convenient programming tool. It is also required to connect to the remote server.
 Go to [Link](https://code.visualstudio.com/download), download, and install VScode for you computer.
 ![Image](vscode1.png)
@@ -13,7 +13,7 @@ In search bar, type "Set Defaul Profile".
 Select git bash.
 ![Image](Gitbash1.png)
 
-2. Remotely Connecting
+2. Remotely Connecting.
 Go on [Link](https://sdacs.ucsd.edu/~icc/index.php), and submit query through account lookup.
 Under additional account, write down the account name and click it to reset the password following the instructions.
 Then, in VScode, open a command prompt with Git bash. 
@@ -21,7 +21,7 @@ Type in "ssh cs15lwi23zz@ieng6.ucsd.edu", and replace the "zz" with the letter f
 ![Image](RemoteConnecting1.png)
 Type "yes" after the system asked "Are you sure you want to continue connecting (yes/no/[fingerprint])?"
 
-3. Running Some Commands
+3. Running Some Commands.
 Running command on the remote server is interesting.
 Command `cd` changes the directory to the intended location.
 Command `ls` gives lists of files in the directory.
