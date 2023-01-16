@@ -27,7 +27,7 @@ Command `cd` changes the directory to the intended location.
 Command `ls` gives lists of files in the directory.
 Command `cp` copies the indicated file.
 Command `cat` prints out the content of the file in the terminal.
-![Image](Running commands.png)
+![Image](RunningCommands.png)
 
 
 
