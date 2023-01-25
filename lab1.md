@@ -17,7 +17,7 @@ Select git bash.
 Go on [Your Account](https://sdacs.ucsd.edu/~icc/index.php), and submit query through account lookup.
 Under additional account, write down the account name and click it to reset the password following the instructions.
 Then, in VScode, open a command prompt with Git bash. 
-Type in `ssh cs15lwi23zz@ieng6.ucsd.edu`, and replace the "zz" with the letter for your account.Type in your password afterward. 
+Type in `ssh cs15lwi23zz@ieng6.ucsd.edu`, and replace the "zz" with the letter for your account. Type in your password afterward. 
 Type `yes` after the system asked `Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
 3. Running Some Commands.
