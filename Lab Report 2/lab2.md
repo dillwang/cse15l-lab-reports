@@ -48,12 +48,12 @@ class StringServer {
     }
 }
 ```
-![Image](vscode1.png)
+![Image](StringAdd1.png)
 * In this screenshot, the method `handleRequest(URI url)` and the method `print()` are called.
 * For the method `handleRequest(URI url)` the relevant arguments are the url after the address of the server. The only instance variable of class Handler is `strings` whose type is a `String ArrayList`.
 * In class Handler, the operation of adding changed `strings` from an empty ArrayList with capacity of 100 to an `ArrayList` whose first element is a String called `Hello`.
 
-![Image](vscode1.png)
+![Image](StringAdd2.png)
 
 * In this screenshot, the method `handleRequest(URI url)` and the method `print()` are called.
 * For the method `handleRequest(URI url)` the relevant arguments are the url after the address of the server. The only instance variable of class Handler is `strings` whose type is a `String ArrayList`.
@@ -83,10 +83,10 @@ class StringServer {
 * Symptoms
 
 Failure-inducing Test:
-![Image](vscode1.png)
+![Image](FailureInput.png)
 
 Non-Failure-Inducing Test:
-![Image](vscode1.png)
+![Image](NonFailureInput.png)
 
 * Bug
 
