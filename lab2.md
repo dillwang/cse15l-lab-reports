@@ -110,6 +110,8 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+In the original method, the code inside the for loop is replacing each element in the array with the element at the same index from the end, rather than swapping the values of the elements. This will result in the array containing the same value for all elements. After fixing the bug in the code, the loop iterates only half the length of the array and swaps the elements at opposite indices. This ensures that the elements are reversed without duplicating values.
+
 
 # Part 3
 In general, I think I learned a lot from both labs. Lab 2 taught me how to host a webpage server on either my pc or a remote server. I get to actually code the handler by myself, and I made my server capable of handling several requests through url. I think this is a very practical skill for me. In lab 3, I learned a lot more about debugging and using Junit testing which I previously had no experience of. I get to try to implement the debugging methods we learned during lectures and try out Junit testing. Junit testing turned out to be very helpful in my CSE 12 pa as well.
